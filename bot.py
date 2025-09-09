@@ -7,7 +7,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 
 # --- НАСТРОЙКИ ---
 # Вставьте сюда ваш токен, полученный от @BotFather
-BOT_TOKEN = "8219789372:AAHodgLj_4kFFfA2o3RUYbkmofjYY7mmKv4" 
+BOT_TOKEN = "_" 
 # Вставьте сюда вашу ссылку на приложение, полученную от Vercel
 WEB_APP_URL = "https://sofia-peach.vercel.app/" # Убедитесь, что ссылка правильная!
 
@@ -111,4 +111,5 @@ def main() -> None:
     application.run_polling()
 
 if __name__ == "__main__":
+
     main()
